@@ -1,5 +1,6 @@
+
 function Home() {
-    return <h1>Teste - Cesar de Moura campos</h1>;
+    return <h1>Ipsum Loren</h1>;
 }
 
 export default Home;
