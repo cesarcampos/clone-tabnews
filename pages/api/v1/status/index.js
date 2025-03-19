@@ -19,6 +19,7 @@ async function status(req, res) {
     updated_at: updatedAt,
     dependencies: {
       database: {
+        name: dbName,
         version: dbVersionValue,
         max_connections: parseInt(dbMaxConnValue),
         opened_connections: dbOpenedConnValue,
